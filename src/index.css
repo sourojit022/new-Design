@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#img11 {
+  width: 500px;
+  height: 500px;
+}
+
+/* home */
+#apppage .gradient {
+  
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(211, 208, 42, 0.7),
+    rgba(211, 208, 42, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(42, 27, 161, 0.7)),
+    to(rgba(29, 210, 177, 0.7))
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+}
+#apppage{
+  color: #AF9453;
+  font-family: 'Times New Roman', Times, serif;
+}
+#apppage .viewe {
+  background-image: url("https://lh3.googleusercontent.com/keep-bbsk/AGk0z-NoacFMx8TRAwxQfCsnHvZssCKKeh65W3ph-t9QWcwAkDIvbRVziwX1w3k0AtAxY1o-AANfyPSQf5IHBsqHODe9M73F5ATwumIyO4Y");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 90vh;
+}
+
+#apppage h6 {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 400px) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #apppage .animated img {
+    max-height: 35vh;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+}
+@media (max-width: 1000px) and (orientation: landscape) {
+  #apppage .view {
+    min-height: 150vh;
+  }
+}
+
+/* sec2 */
+#sec2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* #sec3 */
+#card1 {
+  padding: 20px;
+}
+#sec3 {
+  background-color: #f5e1ec;
+
+  padding: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.sec3H {
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cardtitle1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* sec4 */
+
+.my-5 {
+
+	padding:5px;
+
+
+  background: url("https://pyxis.nymag.com/v1/imgs/38c/ae0/f0e575ec4c95eaa03613ab4e3ebec5404d-love-languages.rsquare.w1200.jpg")
+    repeat 0 0 ;
+  -webkit-animation: 10s linear 0s normal none infinite animate;
+  -moz-animation: 10s linear 0s normal none infinite animate;
+  -ms-animation: 10s linear 0s normal none infinite animate;
+  -o-animation: 10s linear 0s normal none infinite animate;
+  animation: 50s linear 0s normal none infinite animate;
+}
+
+@-webkit-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@-moz-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@-ms-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@-o-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+
+
+/* sec5 */
+
+#sec5{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+/* /* sec6  */
+ 
+
+.fullsec6{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+
+/* sec7 */
+.pr-2{
+  color: #AF9453;
+}
+.pb-2{
+  color: #AF9453;
+}
+
+#sec7{
+  margin-top: 50px;
+  
+
+}
+
+#regfull{
+
+
+ background-color: brown;
+  background-size: cover;
+  height: 100%;
+  height: 100%;
+
+}
+#navbar1{
+    background-color: white;
+}
